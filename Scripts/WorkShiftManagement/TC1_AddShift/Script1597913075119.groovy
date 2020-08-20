@@ -27,3 +27,4 @@ WebUI.selectOptionByLabel(findTestObject('Object Repository/WorkShiftManagement/
 WebUI.click(findTestObject('Object Repository/WorkShiftManagement/Page_OrangeHRM/AddEmployee'))
 WebUI.verifyOptionPresentByLabel(findTestObject('Object Repository/WorkShiftManagement/Page_OrangeHRM/select_AssignedEmployees'), 'Test 1', false, 4)
 WebUI.click(findTestObject('Object Repository/WorkShiftManagement/Page_OrangeHRM/input__SaveButton'))
+WebUI.closeBrowser()

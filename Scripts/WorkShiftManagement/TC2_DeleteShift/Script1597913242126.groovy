@@ -55,3 +55,4 @@ for(WebElement row: tableRows){
 	}
 	rowNumber++;
 }
+WebUI.closeBrowser()

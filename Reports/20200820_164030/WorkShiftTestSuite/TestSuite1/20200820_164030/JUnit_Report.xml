@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite1" time="74.892" tests="2" failures="0" errors="0">
+   <testsuite name="TestSuite1" tests="2" failures="0" errors="0" time="74.892" timestamp="2020-08-20 16:40:49" hostname="Deiva - DESKTOP-8HAFPCD" id="Test Suites/WorkShiftTestSuite/TestSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Deiva\\git\\KalatlonProject\\Reports\\20200820_164030\\WorkShiftTestSuite\\TestSuite1\\20200820_164030"/>
+         <property name="logFiles" value="C:\\Users\\Deiva\\git\\KalatlonProject\\Reports\\20200820_164030\\WorkShiftTestSuite\\TestSuite1\\20200820_164030\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Deiva - DESKTOP-8HAFPCD"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.2.205"/>
+         <property name="browser" value="Chrome 84.0.4147.125"/>
+         <property name="hostAddress" value="192.168.1.13"/>
+         <property name="sessionId" value="a1603d34a5a59b7394a184925c0bb047"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/WorkShiftManagement/TC1_AddShift" time="44.262" classname="Test Cases/WorkShiftManagement/TC1_AddShift" status="PASSED">
+         <system-out><![CDATA[2020-08-20 16:40:49 - [TEST_CASE][PASSED] - Test Cases/WorkShiftManagement/TC1_AddShift: Test Cases/WorkShiftManagement/TC1_AddShift
+
+2020-08-20 16:40:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/TC2_SampleLogin_WithoutExcelParameters"), null): Call Test Case 'Test Cases/TC2_SampleLogin_WithoutExcelParameters' successfully
+
+2020-08-20 16:40:50 - [TEST_CASE][PASSED] - Test Cases/TC2_SampleLogin_WithoutExcelParameters: Test Cases/TC2_SampleLogin_WithoutExcelParameters
+
+2020-08-20 16:40:51 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'
+
+2020-08-20 16:40:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-20 16:40:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-20 16:41:08 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'
+
+2020-08-20 16:41:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_LOGIN Panel_txtUsername"), "admin"): Text 'admin' is set on object 'Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2020-08-20 16:41:09 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2020-08-20 16:41:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_Username_txtPassword"), "admin123"): Text 'admin123' is set on object 'Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_Username_txtPassword'
+
+2020-08-20 16:41:10 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_Username_txtPassword'
+
+2020-08-20 16:41:10 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2020-08-20 16:41:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_Password_Submit")): Object: 'Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2020-08-20 16:41:22 - [MESSAGE][PASSED] - Object: 'Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2020-08-20 16:41:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC2_SampleLogin_WithoutExcelParameters' successfully
+
+2020-08-20 16:41:22 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/WorkShiftManagement/Page_OrangeHRM/Admin_Tab_MouseHover")): Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/Admin_Tab_MouseHover' is hovered
+
+2020-08-20 16:41:23 - [MESSAGE][PASSED] - Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/Admin_Tab_MouseHover' is hovered
+
+2020-08-20 16:41:23 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/WorkShiftManagement/Page_OrangeHRM/Job_MouseHover")): Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/Job_MouseHover' is hovered
+
+2020-08-20 16:41:24 - [MESSAGE][PASSED] - Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/Job_MouseHover' is hovered
+
+2020-08-20 16:41:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WorkShiftManagement/Page_OrangeHRM/ClickOnWorkShift")): Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/ClickOnWorkShift' is clicked on
+
+2020-08-20 16:41:26 - [MESSAGE][PASSED] - Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/ClickOnWorkShift' is clicked on
+
+2020-08-20 16:41:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WorkShiftManagement/Page_OrangeHRM/input_AddButton")): Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/input_AddButton' is clicked on
+
+2020-08-20 16:41:27 - [MESSAGE][PASSED] - Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/input_AddButton' is clicked on
+
+2020-08-20 16:41:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WorkShiftManagement/Page_OrangeHRM/input__workShiftname"), "Night Shift"): Text 'Night Shift' is set on object 'Object Repository/WorkShiftManagement/Page_OrangeHRM/input__workShiftname'
+
+2020-08-20 16:41:28 - [MESSAGE][PASSED] - Text 'Night Shift' is set on object 'Object Repository/WorkShiftManagement/Page_OrangeHRM/input__workShiftname'
+
+2020-08-20 16:41:28 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/WorkShiftManagement/Page_OrangeHRM/select_FromTime"), "14:00", false): All options with label '14:00' are selected in object 'Object Repository/WorkShiftManagement/Page_OrangeHRM/select_FromTime' 
+
+2020-08-20 16:41:28 - [MESSAGE][PASSED] - All options with label '14:00' are selected in object 'Object Repository/WorkShiftManagement/Page_OrangeHRM/select_FromTime' 
+
+2020-08-20 16:41:28 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/WorkShiftManagement/Page_OrangeHRM/select_ToTime"), "23:00", false): All options with label '23:00' are selected in object 'Object Repository/WorkShiftManagement/Page_OrangeHRM/select_ToTime' 
+
+2020-08-20 16:41:29 - [MESSAGE][PASSED] - All options with label '23:00' are selected in object 'Object Repository/WorkShiftManagement/Page_OrangeHRM/select_ToTime' 
+
+2020-08-20 16:41:29 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/WorkShiftManagement/Page_OrangeHRM/select_AvailableEmployees"), "Test 1", false): All options with label 'Test 1' are selected in object 'Object Repository/WorkShiftManagement/Page_OrangeHRM/select_AvailableEmployees' 
+
+2020-08-20 16:41:30 - [MESSAGE][PASSED] - All options with label 'Test 1' are selected in object 'Object Repository/WorkShiftManagement/Page_OrangeHRM/select_AvailableEmployees' 
+
+2020-08-20 16:41:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WorkShiftManagement/Page_OrangeHRM/AddEmployee")): Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/AddEmployee' is clicked on
+
+2020-08-20 16:41:30 - [MESSAGE][PASSED] - Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/AddEmployee' is clicked on
+
+2020-08-20 16:41:30 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel(findTestObject("Object Repository/WorkShiftManagement/Page_OrangeHRM/select_AssignedEmployees"), "Test 1", false, 4): 1 option(s) with label 'Test 1' is/are present in object 'Object Repository/WorkShiftManagement/Page_OrangeHRM/select_AssignedEmployees' 
+
+2020-08-20 16:41:31 - [MESSAGE][PASSED] - 1 option(s) with label 'Test 1' is/are present in object 'Object Repository/WorkShiftManagement/Page_OrangeHRM/select_AssignedEmployees' 
+
+2020-08-20 16:41:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WorkShiftManagement/Page_OrangeHRM/input__SaveButton")): Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/input__SaveButton' is clicked on
+
+2020-08-20 16:41:33 - [MESSAGE][PASSED] - Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/input__SaveButton' is clicked on
+
+2020-08-20 16:41:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-08-20 16:41:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WorkShiftManagement/TC2_DeleteShift" time="29.335" classname="Test Cases/WorkShiftManagement/TC2_DeleteShift" status="PASSED">
+         <system-out><![CDATA[2020-08-20 16:41:33 - [TEST_CASE][PASSED] - Test Cases/WorkShiftManagement/TC2_DeleteShift: Test Cases/WorkShiftManagement/TC2_DeleteShift
+
+2020-08-20 16:41:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/TC2_SampleLogin_WithoutExcelParameters"), null): Call Test Case 'Test Cases/TC2_SampleLogin_WithoutExcelParameters' successfully
+
+2020-08-20 16:41:34 - [TEST_CASE][PASSED] - Test Cases/TC2_SampleLogin_WithoutExcelParameters: Test Cases/TC2_SampleLogin_WithoutExcelParameters
+
+2020-08-20 16:41:34 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'
+
+2020-08-20 16:41:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-20 16:41:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-20 16:41:44 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'
+
+2020-08-20 16:41:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_LOGIN Panel_txtUsername"), "admin"): Text 'admin' is set on object 'Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2020-08-20 16:41:45 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2020-08-20 16:41:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_Username_txtPassword"), "admin123"): Text 'admin123' is set on object 'Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_Username_txtPassword'
+
+2020-08-20 16:41:45 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_Username_txtPassword'
+
+2020-08-20 16:41:45 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2020-08-20 16:41:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_Password_Submit")): Object: 'Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2020-08-20 16:41:56 - [MESSAGE][PASSED] - Object: 'Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2020-08-20 16:41:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC2_SampleLogin_WithoutExcelParameters' successfully
+
+2020-08-20 16:41:56 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/WorkShiftManagement/Page_OrangeHRM/Admin_Tab_MouseHover")): Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/Admin_Tab_MouseHover' is hovered
+
+2020-08-20 16:41:57 - [MESSAGE][PASSED] - Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/Admin_Tab_MouseHover' is hovered
+
+2020-08-20 16:41:57 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/WorkShiftManagement/Page_OrangeHRM/Job_MouseHover")): Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/Job_MouseHover' is hovered
+
+2020-08-20 16:41:58 - [MESSAGE][PASSED] - Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/Job_MouseHover' is hovered
+
+2020-08-20 16:41:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WorkShiftManagement/Page_OrangeHRM/ClickOnWorkShift")): Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/ClickOnWorkShift' is clicked on
+
+2020-08-20 16:41:59 - [MESSAGE][PASSED] - Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/ClickOnWorkShift' is clicked on
+
+2020-08-20 16:41:59 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-08-20 16:41:59 - [TEST_STEP][PASSED] - table = driver.findElement(By.xpath("//*[@id='resultTable']/tbody")): null
+
+2020-08-20 16:42:00 - [TEST_STEP][PASSED] - tableRows = table.findElements(By.tagName("tr")): null
+
+2020-08-20 16:42:00 - [TEST_STEP][PASSED] - println("Total rows: " + tableRows.size()): null
+
+2020-08-20 16:42:00 - [TEST_STEP][PASSED] - rowNumber = 1: null
+
+2020-08-20 16:42:00 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement row : tableRows): null
+
+2020-08-20 16:42:00 - [TEST_STEP][PASSED] - tableData = row.findElements(By.tagName("td")): null
+
+2020-08-20 16:42:00 - [TEST_STEP][PASSED] - println("Total colum size: " + tableData.size()): null
+
+2020-08-20 16:42:00 - [TEST_STEP][PASSED] - for ([i = 0, i <= tableData.size() - 1, (i++)]): null
+
+2020-08-20 16:42:00 - [TEST_STEP][PASSED] - println(get(i).getText() + "Twilight"): null
+
+2020-08-20 16:42:00 - [TEST_STEP][PASSED] - if (get(i).getText() == "Twilight"): null
+
+2020-08-20 16:42:01 - [TEST_STEP][PASSED] - println(get(i).getText() + "Twilight"): null
+
+2020-08-20 16:42:01 - [TEST_STEP][PASSED] - if (get(i).getText() == "Twilight"): null
+
+2020-08-20 16:42:01 - [TEST_STEP][PASSED] - println(get(i).getText() + "Twilight"): null
+
+2020-08-20 16:42:01 - [TEST_STEP][PASSED] - if (get(i).getText() == "Twilight"): null
+
+2020-08-20 16:42:01 - [TEST_STEP][PASSED] - println(get(i).getText() + "Twilight"): null
+
+2020-08-20 16:42:01 - [TEST_STEP][PASSED] - if (get(i).getText() == "Twilight"): null
+
+2020-08-20 16:42:01 - [TEST_STEP][PASSED] - println(get(i).getText() + "Twilight"): null
+
+2020-08-20 16:42:01 - [TEST_STEP][PASSED] - if (get(i).getText() == "Twilight"): null
+
+2020-08-20 16:42:01 - [TEST_STEP][PASSED] - (rowNumber++): null
+
+2020-08-20 16:42:01 - [TEST_STEP][PASSED] - tableData = row.findElements(By.tagName("td")): null
+
+2020-08-20 16:42:01 - [TEST_STEP][PASSED] - println("Total colum size: " + tableData.size()): null
+
+2020-08-20 16:42:01 - [TEST_STEP][PASSED] - for ([i = 0, i <= tableData.size() - 1, (i++)]): null
+
+2020-08-20 16:42:01 - [TEST_STEP][PASSED] - println(get(i).getText() + "Twilight"): null
+
+2020-08-20 16:42:01 - [TEST_STEP][PASSED] - if (get(i).getText() == "Twilight"): null
+
+2020-08-20 16:42:01 - [TEST_STEP][PASSED] - println(get(i).getText() + "Twilight"): null
+
+2020-08-20 16:42:01 - [TEST_STEP][PASSED] - if (get(i).getText() == "Twilight"): null
+
+2020-08-20 16:42:01 - [TEST_STEP][PASSED] - println(get(i).getText() + "Twilight"): null
+
+2020-08-20 16:42:01 - [TEST_STEP][PASSED] - if (get(i).getText() == "Twilight"): null
+
+2020-08-20 16:42:01 - [TEST_STEP][PASSED] - println(get(i).getText() + "Twilight"): null
+
+2020-08-20 16:42:01 - [TEST_STEP][PASSED] - if (get(i).getText() == "Twilight"): null
+
+2020-08-20 16:42:01 - [TEST_STEP][PASSED] - println(get(i).getText() + "Twilight"): null
+
+2020-08-20 16:42:01 - [TEST_STEP][PASSED] - if (get(i).getText() == "Twilight"): null
+
+2020-08-20 16:42:01 - [TEST_STEP][PASSED] - (rowNumber++): null
+
+2020-08-20 16:42:01 - [TEST_STEP][PASSED] - tableData = row.findElements(By.tagName("td")): null
+
+2020-08-20 16:42:01 - [TEST_STEP][PASSED] - println("Total colum size: " + tableData.size()): null
+
+2020-08-20 16:42:01 - [TEST_STEP][PASSED] - for ([i = 0, i <= tableData.size() - 1, (i++)]): null
+
+2020-08-20 16:42:01 - [TEST_STEP][PASSED] - println(get(i).getText() + "Twilight"): null
+
+2020-08-20 16:42:01 - [TEST_STEP][PASSED] - if (get(i).getText() == "Twilight"): null
+
+2020-08-20 16:42:01 - [TEST_STEP][PASSED] - println(get(i).getText() + "Twilight"): null
+
+2020-08-20 16:42:02 - [TEST_STEP][PASSED] - if (get(i).getText() == "Twilight"): null
+
+2020-08-20 16:42:02 - [TEST_STEP][PASSED] - println("Value of i: " + i): null
+
+2020-08-20 16:42:02 - [TEST_STEP][PASSED] - xpath("//*[@id='resultTable']/tbody/tr[" + rowNumber + "]/td[" + i + 1 + "]/a")).click(): null
+
+2020-08-20 16:42:02 - [TEST_STEP][PASSED] - println(" Retrived text value: " + get(i).getText()): null
+
+2020-08-20 16:42:02 - [TEST_STEP][PASSED] - break: null
+
+2020-08-20 16:42:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-08-20 16:42:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-08-20 16:40:49 - [TEST_SUITE][PASSED] - TestSuite1: Test Cases/WorkShiftManagement/TC2_DeleteShift]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
