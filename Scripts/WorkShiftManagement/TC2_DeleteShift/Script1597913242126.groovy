@@ -40,12 +40,10 @@ for(WebElement row: tableRows){
 		}
 	}*/
 	for(int i=0; i<=tableData.size()-1; i++){
-		println(tableData.get(i).getText() + "Twilight");
-		if(tableData.get(i).getText() =="Twilight"){
-			println("Value of i: "+i);
+		if(tableData.get(i).getText() =="Night Shift"){
 			//WebUI.click(findTestObject(tableData.get(i)));
 			//driver.findElement(tableData.get(i)).click();
-			driver.findElement(By.xpath("//*[@id='resultTable']/tbody/tr["+rowNumber+"]/td["+(i+1)+"]/a")).click();
+			driver.findElement(By.xpath("//*[@id='resultTable']/tbody/tr["+rowNumber+"]/td["+(i)+"]")).click();
 			//*[@id="resultTable"]/tbody/tr[1]/td[2]/a
 			//*[@id="ohrmList_chkSelectRecord_2"]
 			//*[@id="resultTable"]/tbody/tr[2]/td[1]
@@ -55,4 +53,7 @@ for(WebElement row: tableRows){
 	}
 	rowNumber++;
 }
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Object Repository/WorkShiftManagement/DeleteWorkShift/Page_OrangeHRM/input_DeleteButton'))
+WebUI.click(findTestObject('Object Repository/WorkShiftManagement/DeleteWorkShift/Page_OrangeHRM/input_OrangeHRM - AlertOkButton'))
+//WebUI.acceptAlert()
+//WebUI.closeBrowser()

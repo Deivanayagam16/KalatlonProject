@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite1" time="186.261" tests="2" failures="0" errors="1">
+   <testsuite name="TestSuite1" tests="2" failures="0" errors="1" time="186.261" timestamp="2020-08-20 22:30:06" hostname="Deiva - DESKTOP-8HAFPCD" id="Test Suites/WorkShiftTestSuite/TestSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Deiva\\git\\KalatlonProject\\Reports\\20200820_222953\\WorkShiftTestSuite\\TestSuite1\\20200820_222953"/>
+         <property name="logFiles" value="C:\\Users\\Deiva\\git\\KalatlonProject\\Reports\\20200820_222953\\WorkShiftTestSuite\\TestSuite1\\20200820_222953\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Deiva - DESKTOP-8HAFPCD"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.2.205"/>
+         <property name="browser" value="Chrome 84.0.4147.125"/>
+         <property name="hostAddress" value="192.168.1.13"/>
+         <property name="sessionId" value="db84f018f152c7ffe8b6f41eb0a67e5b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/WorkShiftManagement/TC1_AddShift" time="89.442" classname="Test Cases/WorkShiftManagement/TC1_AddShift" status="PASSED">
+         <system-out><![CDATA[2020-08-20 22:30:08 - [TEST_CASE][PASSED] - Test Cases/WorkShiftManagement/TC1_AddShift: Test Cases/WorkShiftManagement/TC1_AddShift
+
+2020-08-20 22:30:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/TC2_SampleLogin_WithoutExcelParameters"), null): Call Test Case 'Test Cases/TC2_SampleLogin_WithoutExcelParameters' successfully
+
+2020-08-20 22:30:10 - [TEST_CASE][PASSED] - Test Cases/TC2_SampleLogin_WithoutExcelParameters: Test Cases/TC2_SampleLogin_WithoutExcelParameters
+
+2020-08-20 22:30:11 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'
+
+2020-08-20 22:30:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-20 22:30:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-20 22:30:42 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'
+
+2020-08-20 22:30:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_LOGIN Panel_txtUsername"), "admin"): Text 'admin' is set on object 'Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2020-08-20 22:30:43 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2020-08-20 22:30:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_Username_txtPassword"), "admin123"): Text 'admin123' is set on object 'Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_Username_txtPassword'
+
+2020-08-20 22:30:44 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_Username_txtPassword'
+
+2020-08-20 22:30:44 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2020-08-20 22:30:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_Password_Submit")): Object: 'Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2020-08-20 22:31:18 - [MESSAGE][PASSED] - Object: 'Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2020-08-20 22:31:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC2_SampleLogin_WithoutExcelParameters' successfully
+
+2020-08-20 22:31:18 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/WorkShiftManagement/Page_OrangeHRM/Admin_Tab_MouseHover")): Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/Admin_Tab_MouseHover' is hovered
+
+2020-08-20 22:31:20 - [MESSAGE][PASSED] - Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/Admin_Tab_MouseHover' is hovered
+
+2020-08-20 22:31:20 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/WorkShiftManagement/Page_OrangeHRM/Job_MouseHover")): Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/Job_MouseHover' is hovered
+
+2020-08-20 22:31:21 - [MESSAGE][PASSED] - Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/Job_MouseHover' is hovered
+
+2020-08-20 22:31:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WorkShiftManagement/Page_OrangeHRM/ClickOnWorkShift")): Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/ClickOnWorkShift' is clicked on
+
+2020-08-20 22:31:23 - [MESSAGE][PASSED] - Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/ClickOnWorkShift' is clicked on
+
+2020-08-20 22:31:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WorkShiftManagement/Page_OrangeHRM/input_AddButton")): Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/input_AddButton' is clicked on
+
+2020-08-20 22:31:23 - [MESSAGE][PASSED] - Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/input_AddButton' is clicked on
+
+2020-08-20 22:31:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WorkShiftManagement/Page_OrangeHRM/input__workShiftname"), "Night Shift"): Text 'Night Shift' is set on object 'Object Repository/WorkShiftManagement/Page_OrangeHRM/input__workShiftname'
+
+2020-08-20 22:31:24 - [MESSAGE][PASSED] - Text 'Night Shift' is set on object 'Object Repository/WorkShiftManagement/Page_OrangeHRM/input__workShiftname'
+
+2020-08-20 22:31:24 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/WorkShiftManagement/Page_OrangeHRM/select_FromTime"), "14:00", false): All options with label '14:00' are selected in object 'Object Repository/WorkShiftManagement/Page_OrangeHRM/select_FromTime' 
+
+2020-08-20 22:31:25 - [MESSAGE][PASSED] - All options with label '14:00' are selected in object 'Object Repository/WorkShiftManagement/Page_OrangeHRM/select_FromTime' 
+
+2020-08-20 22:31:25 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/WorkShiftManagement/Page_OrangeHRM/select_ToTime"), "23:00", false): All options with label '23:00' are selected in object 'Object Repository/WorkShiftManagement/Page_OrangeHRM/select_ToTime' 
+
+2020-08-20 22:31:26 - [MESSAGE][PASSED] - All options with label '23:00' are selected in object 'Object Repository/WorkShiftManagement/Page_OrangeHRM/select_ToTime' 
+
+2020-08-20 22:31:26 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/WorkShiftManagement/Page_OrangeHRM/select_AvailableEmployees"), "Test 1", false): All options with label 'Test 1' are selected in object 'Object Repository/WorkShiftManagement/Page_OrangeHRM/select_AvailableEmployees' 
+
+2020-08-20 22:31:27 - [MESSAGE][PASSED] - All options with label 'Test 1' are selected in object 'Object Repository/WorkShiftManagement/Page_OrangeHRM/select_AvailableEmployees' 
+
+2020-08-20 22:31:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WorkShiftManagement/Page_OrangeHRM/AddEmployee")): Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/AddEmployee' is clicked on
+
+2020-08-20 22:31:27 - [MESSAGE][PASSED] - Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/AddEmployee' is clicked on
+
+2020-08-20 22:31:27 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel(findTestObject("Object Repository/WorkShiftManagement/Page_OrangeHRM/select_AssignedEmployees"), "Test 1", false, 4): 1 option(s) with label 'Test 1' is/are present in object 'Object Repository/WorkShiftManagement/Page_OrangeHRM/select_AssignedEmployees' 
+
+2020-08-20 22:31:28 - [MESSAGE][PASSED] - 1 option(s) with label 'Test 1' is/are present in object 'Object Repository/WorkShiftManagement/Page_OrangeHRM/select_AssignedEmployees' 
+
+2020-08-20 22:31:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WorkShiftManagement/Page_OrangeHRM/input__SaveButton")): Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/input__SaveButton' is clicked on
+
+2020-08-20 22:31:37 - [MESSAGE][PASSED] - Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/input__SaveButton' is clicked on
+
+2020-08-20 22:31:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-08-20 22:31:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WorkShiftManagement/TC2_DeleteShift" time="91.905" classname="Test Cases/WorkShiftManagement/TC2_DeleteShift" status="ERROR">
+         <error type="ERROR" message="Test Cases/WorkShiftManagement/TC2_DeleteShift FAILED.
+Reason:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id='resultTable']/tbody/tr[2]/td[1]/a&quot;}
+  (Session info: chrome=84.0.4147.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-8HAFPCD', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Deiva\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55271}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: db84f018f152c7ffe8b6f41eb0a67e5b
+*** Element info: {Using=xpath, value=//*[@id='resultTable']/tbody/tr[2]/td[1]/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy9.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.WebDriver$findElement.call(Unknown Source)
+	at TC2_DeleteShift.run(TC2_DeleteShift:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597942793064.run(TempTestSuite1597942793064.groovy:39)
+"/>
+         <system-out><![CDATA[2020-08-20 22:31:38 - [TEST_CASE][ERROR] - Test Cases/WorkShiftManagement/TC2_DeleteShift: Test Cases/WorkShiftManagement/TC2_DeleteShift FAILED.
+Reason:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='resultTable']/tbody/tr[2]/td[1]/a"}
+  (Session info: chrome=84.0.4147.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-8HAFPCD', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Deiva\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55271}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: db84f018f152c7ffe8b6f41eb0a67e5b
+*** Element info: {Using=xpath, value=//*[@id='resultTable']/tbody/tr[2]/td[1]/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy9.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.WebDriver$findElement.call(Unknown Source)
+	at TC2_DeleteShift.run(TC2_DeleteShift:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597942793064.run(TempTestSuite1597942793064.groovy:39)
+
+
+2020-08-20 22:31:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/TC2_SampleLogin_WithoutExcelParameters"), null): Call Test Case 'Test Cases/TC2_SampleLogin_WithoutExcelParameters' successfully
+
+2020-08-20 22:31:39 - [TEST_CASE][PASSED] - Test Cases/TC2_SampleLogin_WithoutExcelParameters: Test Cases/TC2_SampleLogin_WithoutExcelParameters
+
+2020-08-20 22:31:39 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'
+
+2020-08-20 22:31:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-20 22:31:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-20 22:31:51 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'
+
+2020-08-20 22:31:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_LOGIN Panel_txtUsername"), "admin"): Text 'admin' is set on object 'Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2020-08-20 22:31:51 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2020-08-20 22:31:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_Username_txtPassword"), "admin123"): Text 'admin123' is set on object 'Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_Username_txtPassword'
+
+2020-08-20 22:31:52 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_Username_txtPassword'
+
+2020-08-20 22:31:52 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2020-08-20 22:31:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_Password_Submit")): Object: 'Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2020-08-20 22:32:59 - [MESSAGE][PASSED] - Object: 'Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2020-08-20 22:32:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC2_SampleLogin_WithoutExcelParameters' successfully
+
+2020-08-20 22:32:59 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/WorkShiftManagement/Page_OrangeHRM/Admin_Tab_MouseHover")): Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/Admin_Tab_MouseHover' is hovered
+
+2020-08-20 22:33:00 - [MESSAGE][PASSED] - Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/Admin_Tab_MouseHover' is hovered
+
+2020-08-20 22:33:00 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/WorkShiftManagement/Page_OrangeHRM/Job_MouseHover")): Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/Job_MouseHover' is hovered
+
+2020-08-20 22:33:01 - [MESSAGE][PASSED] - Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/Job_MouseHover' is hovered
+
+2020-08-20 22:33:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WorkShiftManagement/Page_OrangeHRM/ClickOnWorkShift")): Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/ClickOnWorkShift' is clicked on
+
+2020-08-20 22:33:07 - [MESSAGE][PASSED] - Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/ClickOnWorkShift' is clicked on
+
+2020-08-20 22:33:07 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-08-20 22:33:07 - [TEST_STEP][PASSED] - table = driver.findElement(By.xpath("//*[@id='resultTable']/tbody")): null
+
+2020-08-20 22:33:08 - [TEST_STEP][PASSED] - tableRows = table.findElements(By.tagName("tr")): null
+
+2020-08-20 22:33:08 - [TEST_STEP][PASSED] - println("Total rows: " + tableRows.size()): null
+
+2020-08-20 22:33:08 - [TEST_STEP][PASSED] - rowNumber = 1: null
+
+2020-08-20 22:33:08 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement row : tableRows): null
+
+2020-08-20 22:33:08 - [TEST_STEP][PASSED] - tableData = row.findElements(By.tagName("td")): null
+
+2020-08-20 22:33:09 - [TEST_STEP][PASSED] - println("Total colum size: " + tableData.size()): null
+
+2020-08-20 22:33:09 - [TEST_STEP][PASSED] - for ([i = 0, i <= tableData.size() - 1, (i++)]): null
+
+2020-08-20 22:33:09 - [TEST_STEP][PASSED] - if (get(i).getText() == "Night Shift"): null
+
+2020-08-20 22:33:09 - [TEST_STEP][PASSED] - if (get(i).getText() == "Night Shift"): null
+
+2020-08-20 22:33:09 - [TEST_STEP][PASSED] - if (get(i).getText() == "Night Shift"): null
+
+2020-08-20 22:33:09 - [TEST_STEP][PASSED] - if (get(i).getText() == "Night Shift"): null
+
+2020-08-20 22:33:09 - [TEST_STEP][PASSED] - if (get(i).getText() == "Night Shift"): null
+
+2020-08-20 22:33:09 - [TEST_STEP][PASSED] - (rowNumber++): null
+
+2020-08-20 22:33:09 - [TEST_STEP][PASSED] - tableData = row.findElements(By.tagName("td")): null
+
+2020-08-20 22:33:09 - [TEST_STEP][PASSED] - println("Total colum size: " + tableData.size()): null
+
+2020-08-20 22:33:09 - [TEST_STEP][PASSED] - for ([i = 0, i <= tableData.size() - 1, (i++)]): null
+
+2020-08-20 22:33:09 - [TEST_STEP][PASSED] - if (get(i).getText() == "Night Shift"): null
+
+2020-08-20 22:33:09 - [TEST_STEP][PASSED] - if (get(i).getText() == "Night Shift"): null
+
+2020-08-20 22:33:09 - [TEST_STEP][PASSED] - xpath("//*[@id='resultTable']/tbody/tr[" + rowNumber + "]/td[" + i + "]/a")).click(): null]]></system-out>
+         <system-err><![CDATA[2020-08-20 22:31:38 - [TEST_CASE][ERROR] - Test Cases/WorkShiftManagement/TC2_DeleteShift: Test Cases/WorkShiftManagement/TC2_DeleteShift FAILED.
+Reason:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='resultTable']/tbody/tr[2]/td[1]/a"}
+  (Session info: chrome=84.0.4147.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-8HAFPCD', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Deiva\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55271}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: db84f018f152c7ffe8b6f41eb0a67e5b
+*** Element info: {Using=xpath, value=//*[@id='resultTable']/tbody/tr[2]/td[1]/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy9.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.WebDriver$findElement.call(Unknown Source)
+	at TC2_DeleteShift.run(TC2_DeleteShift:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597942793064.run(TempTestSuite1597942793064.groovy:39)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-08-20 22:30:06 - [TEST_SUITE][ERROR] - TestSuite1: Test Cases/WorkShiftManagement/TC2_DeleteShift FAILED.
+Reason:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='resultTable']/tbody/tr[2]/td[1]/a"}
+  (Session info: chrome=84.0.4147.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-8HAFPCD', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Deiva\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55271}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: db84f018f152c7ffe8b6f41eb0a67e5b
+*** Element info: {Using=xpath, value=//*[@id='resultTable']/tbody/tr[2]/td[1]/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy9.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.WebDriver$findElement.call(Unknown Source)
+	at TC2_DeleteShift.run(TC2_DeleteShift:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597942793064.run(TempTestSuite1597942793064.groovy:39)]]></system-out>
+      <system-err><![CDATA[2020-08-20 22:30:06 - [TEST_SUITE][ERROR] - TestSuite1: Test Cases/WorkShiftManagement/TC2_DeleteShift FAILED.
+Reason:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='resultTable']/tbody/tr[2]/td[1]/a"}
+  (Session info: chrome=84.0.4147.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-8HAFPCD', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Deiva\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55271}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: db84f018f152c7ffe8b6f41eb0a67e5b
+*** Element info: {Using=xpath, value=//*[@id='resultTable']/tbody/tr[2]/td[1]/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy9.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.WebDriver$findElement.call(Unknown Source)
+	at TC2_DeleteShift.run(TC2_DeleteShift:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597942793064.run(TempTestSuite1597942793064.groovy:39)]]></system-err>
+   </testsuite>
+</testsuites>

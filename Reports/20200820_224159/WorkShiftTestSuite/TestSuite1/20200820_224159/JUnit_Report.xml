@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite1" time="162.02" tests="2" failures="1" errors="0">
+   <testsuite name="TestSuite1" tests="2" failures="1" errors="0" time="162.02" timestamp="2020-08-20 22:42:06" hostname="Deiva - DESKTOP-8HAFPCD" id="Test Suites/WorkShiftTestSuite/TestSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Deiva\\git\\KalatlonProject\\Reports\\20200820_224159\\WorkShiftTestSuite\\TestSuite1\\20200820_224159"/>
+         <property name="logFiles" value="C:\\Users\\Deiva\\git\\KalatlonProject\\Reports\\20200820_224159\\WorkShiftTestSuite\\TestSuite1\\20200820_224159\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Deiva\\git\\KalatlonProject\\Reports\\20200820_224159\\WorkShiftTestSuite\\TestSuite1\\20200820_224159\\1597943682693.png"/>
+         <property name="hostName" value="Deiva - DESKTOP-8HAFPCD"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.2.205"/>
+         <property name="browser" value="Chrome 84.0.4147.125"/>
+         <property name="hostAddress" value="192.168.1.13"/>
+         <property name="sessionId" value="e4638efde32e0fa57ec9d560d41040c4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/WorkShiftManagement/TC1_AddShift" time="77.937" classname="Test Cases/WorkShiftManagement/TC1_AddShift" status="PASSED">
+         <system-out><![CDATA[2020-08-20 22:42:06 - [TEST_CASE][PASSED] - Test Cases/WorkShiftManagement/TC1_AddShift: Test Cases/WorkShiftManagement/TC1_AddShift
+
+2020-08-20 22:42:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/TC2_SampleLogin_WithoutExcelParameters"), null): Call Test Case 'Test Cases/TC2_SampleLogin_WithoutExcelParameters' successfully
+
+2020-08-20 22:42:08 - [TEST_CASE][PASSED] - Test Cases/TC2_SampleLogin_WithoutExcelParameters: Test Cases/TC2_SampleLogin_WithoutExcelParameters
+
+2020-08-20 22:42:08 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'
+
+2020-08-20 22:42:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-20 22:42:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-20 22:42:29 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'
+
+2020-08-20 22:42:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_LOGIN Panel_txtUsername"), "admin"): Text 'admin' is set on object 'Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2020-08-20 22:42:30 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2020-08-20 22:42:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_Username_txtPassword"), "admin123"): Text 'admin123' is set on object 'Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_Username_txtPassword'
+
+2020-08-20 22:42:31 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_Username_txtPassword'
+
+2020-08-20 22:42:31 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2020-08-20 22:42:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_Password_Submit")): Object: 'Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2020-08-20 22:43:11 - [MESSAGE][PASSED] - Object: 'Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2020-08-20 22:43:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC2_SampleLogin_WithoutExcelParameters' successfully
+
+2020-08-20 22:43:11 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/WorkShiftManagement/Page_OrangeHRM/Admin_Tab_MouseHover")): Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/Admin_Tab_MouseHover' is hovered
+
+2020-08-20 22:43:11 - [MESSAGE][PASSED] - Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/Admin_Tab_MouseHover' is hovered
+
+2020-08-20 22:43:11 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/WorkShiftManagement/Page_OrangeHRM/Job_MouseHover")): Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/Job_MouseHover' is hovered
+
+2020-08-20 22:43:12 - [MESSAGE][PASSED] - Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/Job_MouseHover' is hovered
+
+2020-08-20 22:43:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WorkShiftManagement/Page_OrangeHRM/ClickOnWorkShift")): Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/ClickOnWorkShift' is clicked on
+
+2020-08-20 22:43:14 - [MESSAGE][PASSED] - Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/ClickOnWorkShift' is clicked on
+
+2020-08-20 22:43:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WorkShiftManagement/Page_OrangeHRM/input_AddButton")): Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/input_AddButton' is clicked on
+
+2020-08-20 22:43:15 - [MESSAGE][PASSED] - Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/input_AddButton' is clicked on
+
+2020-08-20 22:43:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WorkShiftManagement/Page_OrangeHRM/input__workShiftname"), "Night Shift"): Text 'Night Shift' is set on object 'Object Repository/WorkShiftManagement/Page_OrangeHRM/input__workShiftname'
+
+2020-08-20 22:43:16 - [MESSAGE][PASSED] - Text 'Night Shift' is set on object 'Object Repository/WorkShiftManagement/Page_OrangeHRM/input__workShiftname'
+
+2020-08-20 22:43:16 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/WorkShiftManagement/Page_OrangeHRM/select_FromTime"), "14:00", false): All options with label '14:00' are selected in object 'Object Repository/WorkShiftManagement/Page_OrangeHRM/select_FromTime' 
+
+2020-08-20 22:43:17 - [MESSAGE][PASSED] - All options with label '14:00' are selected in object 'Object Repository/WorkShiftManagement/Page_OrangeHRM/select_FromTime' 
+
+2020-08-20 22:43:17 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/WorkShiftManagement/Page_OrangeHRM/select_ToTime"), "23:00", false): All options with label '23:00' are selected in object 'Object Repository/WorkShiftManagement/Page_OrangeHRM/select_ToTime' 
+
+2020-08-20 22:43:17 - [MESSAGE][PASSED] - All options with label '23:00' are selected in object 'Object Repository/WorkShiftManagement/Page_OrangeHRM/select_ToTime' 
+
+2020-08-20 22:43:17 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/WorkShiftManagement/Page_OrangeHRM/select_AvailableEmployees"), "Test 1", false): All options with label 'Test 1' are selected in object 'Object Repository/WorkShiftManagement/Page_OrangeHRM/select_AvailableEmployees' 
+
+2020-08-20 22:43:18 - [MESSAGE][PASSED] - All options with label 'Test 1' are selected in object 'Object Repository/WorkShiftManagement/Page_OrangeHRM/select_AvailableEmployees' 
+
+2020-08-20 22:43:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WorkShiftManagement/Page_OrangeHRM/AddEmployee")): Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/AddEmployee' is clicked on
+
+2020-08-20 22:43:19 - [MESSAGE][PASSED] - Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/AddEmployee' is clicked on
+
+2020-08-20 22:43:19 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel(findTestObject("Object Repository/WorkShiftManagement/Page_OrangeHRM/select_AssignedEmployees"), "Test 1", false, 4): 1 option(s) with label 'Test 1' is/are present in object 'Object Repository/WorkShiftManagement/Page_OrangeHRM/select_AssignedEmployees' 
+
+2020-08-20 22:43:19 - [MESSAGE][PASSED] - 1 option(s) with label 'Test 1' is/are present in object 'Object Repository/WorkShiftManagement/Page_OrangeHRM/select_AssignedEmployees' 
+
+2020-08-20 22:43:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WorkShiftManagement/Page_OrangeHRM/input__SaveButton")): Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/input__SaveButton' is clicked on
+
+2020-08-20 22:43:23 - [MESSAGE][PASSED] - Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/input__SaveButton' is clicked on
+
+2020-08-20 22:43:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-08-20 22:43:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WorkShiftManagement/TC2_DeleteShift" time="78.645" classname="Test Cases/WorkShiftManagement/TC2_DeleteShift" status="FAILED">
+         <failure type="FAILED" message="Test Cases/WorkShiftManagement/TC2_DeleteShift FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WorkShiftManagement/DeleteWorkShift/Page_OrangeHRM/input_OrangeHRM - AlertOkButton'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC2_DeleteShift.run(TC2_DeleteShift:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597943519714.run(TempTestSuite1597943519714.groovy:39)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=84.0.4147.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-8HAFPCD', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Deiva\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56314}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e4638efde32e0fa57ec9d560d41040c4
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-08-20 22:43:24 - [TEST_CASE][FAILED] - Test Cases/WorkShiftManagement/TC2_DeleteShift: Test Cases/WorkShiftManagement/TC2_DeleteShift FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WorkShiftManagement/DeleteWorkShift/Page_OrangeHRM/input_OrangeHRM - AlertOkButton'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC2_DeleteShift.run(TC2_DeleteShift:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597943519714.run(TempTestSuite1597943519714.groovy:39)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=84.0.4147.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-8HAFPCD', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Deiva\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56314}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e4638efde32e0fa57ec9d560d41040c4
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-08-20 22:43:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/TC2_SampleLogin_WithoutExcelParameters"), null): Call Test Case 'Test Cases/TC2_SampleLogin_WithoutExcelParameters' successfully
+
+2020-08-20 22:43:25 - [TEST_CASE][PASSED] - Test Cases/TC2_SampleLogin_WithoutExcelParameters: Test Cases/TC2_SampleLogin_WithoutExcelParameters
+
+2020-08-20 22:43:25 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'
+
+2020-08-20 22:43:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-20 22:43:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-20 22:43:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'
+
+2020-08-20 22:43:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_LOGIN Panel_txtUsername"), "admin"): Text 'admin' is set on object 'Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2020-08-20 22:43:44 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2020-08-20 22:43:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_Username_txtPassword"), "admin123"): Text 'admin123' is set on object 'Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_Username_txtPassword'
+
+2020-08-20 22:43:45 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_Username_txtPassword'
+
+2020-08-20 22:43:45 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2020-08-20 22:43:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_Password_Submit")): Object: 'Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2020-08-20 22:44:34 - [MESSAGE][PASSED] - Object: 'Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2020-08-20 22:44:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC2_SampleLogin_WithoutExcelParameters' successfully
+
+2020-08-20 22:44:34 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/WorkShiftManagement/Page_OrangeHRM/Admin_Tab_MouseHover")): Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/Admin_Tab_MouseHover' is hovered
+
+2020-08-20 22:44:34 - [MESSAGE][PASSED] - Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/Admin_Tab_MouseHover' is hovered
+
+2020-08-20 22:44:34 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/WorkShiftManagement/Page_OrangeHRM/Job_MouseHover")): Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/Job_MouseHover' is hovered
+
+2020-08-20 22:44:35 - [MESSAGE][PASSED] - Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/Job_MouseHover' is hovered
+
+2020-08-20 22:44:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WorkShiftManagement/Page_OrangeHRM/ClickOnWorkShift")): Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/ClickOnWorkShift' is clicked on
+
+2020-08-20 22:44:38 - [MESSAGE][PASSED] - Object: 'Object Repository/WorkShiftManagement/Page_OrangeHRM/ClickOnWorkShift' is clicked on
+
+2020-08-20 22:44:38 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-08-20 22:44:38 - [TEST_STEP][PASSED] - table = driver.findElement(By.xpath("//*[@id='resultTable']/tbody")): null
+
+2020-08-20 22:44:38 - [TEST_STEP][PASSED] - tableRows = table.findElements(By.tagName("tr")): null
+
+2020-08-20 22:44:39 - [TEST_STEP][PASSED] - println("Total rows: " + tableRows.size()): null
+
+2020-08-20 22:44:39 - [TEST_STEP][PASSED] - rowNumber = 1: null
+
+2020-08-20 22:44:39 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement row : tableRows): null
+
+2020-08-20 22:44:39 - [TEST_STEP][PASSED] - tableData = row.findElements(By.tagName("td")): null
+
+2020-08-20 22:44:39 - [TEST_STEP][PASSED] - println("Total colum size: " + tableData.size()): null
+
+2020-08-20 22:44:39 - [TEST_STEP][PASSED] - for ([i = 0, i <= tableData.size() - 1, (i++)]): null
+
+2020-08-20 22:44:39 - [TEST_STEP][PASSED] - if (get(i).getText() == "Night Shift"): null
+
+2020-08-20 22:44:39 - [TEST_STEP][PASSED] - if (get(i).getText() == "Night Shift"): null
+
+2020-08-20 22:44:39 - [TEST_STEP][PASSED] - if (get(i).getText() == "Night Shift"): null
+
+2020-08-20 22:44:39 - [TEST_STEP][PASSED] - if (get(i).getText() == "Night Shift"): null
+
+2020-08-20 22:44:39 - [TEST_STEP][PASSED] - if (get(i).getText() == "Night Shift"): null
+
+2020-08-20 22:44:39 - [TEST_STEP][PASSED] - (rowNumber++): null
+
+2020-08-20 22:44:39 - [TEST_STEP][PASSED] - tableData = row.findElements(By.tagName("td")): null
+
+2020-08-20 22:44:39 - [TEST_STEP][PASSED] - println("Total colum size: " + tableData.size()): null
+
+2020-08-20 22:44:39 - [TEST_STEP][PASSED] - for ([i = 0, i <= tableData.size() - 1, (i++)]): null
+
+2020-08-20 22:44:39 - [TEST_STEP][PASSED] - if (get(i).getText() == "Night Shift"): null
+
+2020-08-20 22:44:40 - [TEST_STEP][PASSED] - if (get(i).getText() == "Night Shift"): null
+
+2020-08-20 22:44:40 - [TEST_STEP][PASSED] - xpath("//*[@id='resultTable']/tbody/tr[" + rowNumber + "]/td[" + i + "]")).click(): null
+
+2020-08-20 22:44:40 - [TEST_STEP][PASSED] - println(" Retrived text value: " + get(i).getText()): null
+
+2020-08-20 22:44:40 - [TEST_STEP][PASSED] - break: null
+
+2020-08-20 22:44:40 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/WorkShiftManagement/DeleteWorkShift/Page_OrangeHRM/input_OrangeHRM - AlertOkButton")): Unable to click on object 'Object Repository/WorkShiftManagement/DeleteWorkShift/Page_OrangeHRM/input_OrangeHRM - AlertOkButton' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WorkShiftManagement/DeleteWorkShift/Page_OrangeHRM/input_OrangeHRM - AlertOkButton'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC2_DeleteShift.run(TC2_DeleteShift:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597943519714.run(TempTestSuite1597943519714.groovy:39)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=84.0.4147.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-8HAFPCD', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Deiva\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56314}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e4638efde32e0fa57ec9d560d41040c4
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1597913242126.run(Script1597913242126.groovy:56)
+	... 13 more
+)
+
+2020-08-20 22:44:43 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/WorkShiftManagement/DeleteWorkShift/Page_OrangeHRM/input_OrangeHRM - AlertOkButton' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WorkShiftManagement/DeleteWorkShift/Page_OrangeHRM/input_OrangeHRM - AlertOkButton'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC2_DeleteShift.run(TC2_DeleteShift:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597943519714.run(TempTestSuite1597943519714.groovy:39)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=84.0.4147.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-8HAFPCD', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Deiva\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56314}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e4638efde32e0fa57ec9d560d41040c4
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1597913242126.run(Script1597913242126.groovy:56)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Deiva\\git\\KalatlonProject\\Reports\\20200820_224159\\WorkShiftTestSuite\\TestSuite1\\20200820_224159\\1597943682693.png]]]]></system-out>
+         <system-err><![CDATA[2020-08-20 22:43:24 - [TEST_CASE][FAILED] - Test Cases/WorkShiftManagement/TC2_DeleteShift: Test Cases/WorkShiftManagement/TC2_DeleteShift FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WorkShiftManagement/DeleteWorkShift/Page_OrangeHRM/input_OrangeHRM - AlertOkButton'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC2_DeleteShift.run(TC2_DeleteShift:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597943519714.run(TempTestSuite1597943519714.groovy:39)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=84.0.4147.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-8HAFPCD', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Deiva\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56314}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e4638efde32e0fa57ec9d560d41040c4
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-08-20 22:42:06 - [TEST_SUITE][FAILED] - TestSuite1: Test Cases/WorkShiftManagement/TC2_DeleteShift FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WorkShiftManagement/DeleteWorkShift/Page_OrangeHRM/input_OrangeHRM - AlertOkButton'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC2_DeleteShift.run(TC2_DeleteShift:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597943519714.run(TempTestSuite1597943519714.groovy:39)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=84.0.4147.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-8HAFPCD', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Deiva\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56314}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e4638efde32e0fa57ec9d560d41040c4
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-08-20 22:42:06 - [TEST_SUITE][FAILED] - TestSuite1: Test Cases/WorkShiftManagement/TC2_DeleteShift FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WorkShiftManagement/DeleteWorkShift/Page_OrangeHRM/input_OrangeHRM - AlertOkButton'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC2_DeleteShift.run(TC2_DeleteShift:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597943519714.run(TempTestSuite1597943519714.groovy:39)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=84.0.4147.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-8HAFPCD', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Deiva\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56314}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e4638efde32e0fa57ec9d560d41040c4
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

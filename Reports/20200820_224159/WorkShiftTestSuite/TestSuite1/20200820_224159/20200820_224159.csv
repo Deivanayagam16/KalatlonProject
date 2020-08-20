@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite1,Chrome 84.0.4147.125,,,2020-08-20 22:42:06,2020-08-20 22:44:43,2m - 37.312s,FAILED
+,,,,,,,
+Test Cases/WorkShiftManagement/TC1_AddShift,Chrome 84.0.4147.125,,,2020-08-20 22:42:06,2020-08-20 22:43:24,1m - 17.937s,PASSED
+"callTestCase(findTestCase(""Test Cases/TC2_SampleLogin_WithoutExcelParameters""), null)",Chrome 84.0.4147.125,,,2020-08-20 22:42:07,2020-08-20 22:43:11,1m - 3.416s,PASSED
+"mouseOver(findTestObject(""Object Repository/WorkShiftManagement/Page_OrangeHRM/Admin_Tab_MouseHover""))",Chrome 84.0.4147.125,,,2020-08-20 22:43:11,2020-08-20 22:43:11,0.754s,PASSED
+"mouseOver(findTestObject(""Object Repository/WorkShiftManagement/Page_OrangeHRM/Job_MouseHover""))",Chrome 84.0.4147.125,,,2020-08-20 22:43:11,2020-08-20 22:43:12,0.585s,PASSED
+"click(findTestObject(""Object Repository/WorkShiftManagement/Page_OrangeHRM/ClickOnWorkShift""))",Chrome 84.0.4147.125,,,2020-08-20 22:43:12,2020-08-20 22:43:14,2.227s,PASSED
+"click(findTestObject(""Object Repository/WorkShiftManagement/Page_OrangeHRM/input_AddButton""))",Chrome 84.0.4147.125,,,2020-08-20 22:43:14,2020-08-20 22:43:15,0.598s,PASSED
+"setText(findTestObject(""Object Repository/WorkShiftManagement/Page_OrangeHRM/input__workShiftname""), ""Night Shift"")",Chrome 84.0.4147.125,,,2020-08-20 22:43:15,2020-08-20 22:43:16,0.936s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/WorkShiftManagement/Page_OrangeHRM/select_FromTime""), ""14:00"", false)",Chrome 84.0.4147.125,,,2020-08-20 22:43:16,2020-08-20 22:43:17,0.788s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/WorkShiftManagement/Page_OrangeHRM/select_ToTime""), ""23:00"", false)",Chrome 84.0.4147.125,,,2020-08-20 22:43:17,2020-08-20 22:43:17,0.694s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/WorkShiftManagement/Page_OrangeHRM/select_AvailableEmployees""), ""Test 1"", false)",Chrome 84.0.4147.125,,,2020-08-20 22:43:17,2020-08-20 22:43:18,0.728s,PASSED
+"click(findTestObject(""Object Repository/WorkShiftManagement/Page_OrangeHRM/AddEmployee""))",Chrome 84.0.4147.125,,,2020-08-20 22:43:18,2020-08-20 22:43:19,0.585s,PASSED
+"verifyOptionPresentByLabel(findTestObject(""Object Repository/WorkShiftManagement/Page_OrangeHRM/select_AssignedEmployees""), ""Test 1"", false, 4)",Chrome 84.0.4147.125,,,2020-08-20 22:43:19,2020-08-20 22:43:19,0.703s,PASSED
+"click(findTestObject(""Object Repository/WorkShiftManagement/Page_OrangeHRM/input__SaveButton""))",Chrome 84.0.4147.125,,,2020-08-20 22:43:19,2020-08-20 22:43:23,4.119s,PASSED
+closeBrowser(),Chrome 84.0.4147.125,,,2020-08-20 22:43:23,2020-08-20 22:43:24,0.972s,PASSED
+,,,,,,,
+Test Cases/WorkShiftManagement/TC2_DeleteShift,Chrome 84.0.4147.125,,,2020-08-20 22:43:24,2020-08-20 22:44:43,1m - 18.645s,FAILED
+"callTestCase(findTestCase(""Test Cases/TC2_SampleLogin_WithoutExcelParameters""), null)",Chrome 84.0.4147.125,,,2020-08-20 22:43:25,2020-08-20 22:44:34,1m - 8.636s,PASSED
+"mouseOver(findTestObject(""Object Repository/WorkShiftManagement/Page_OrangeHRM/Admin_Tab_MouseHover""))",Chrome 84.0.4147.125,,,2020-08-20 22:44:34,2020-08-20 22:44:34,0.614s,PASSED
+"mouseOver(findTestObject(""Object Repository/WorkShiftManagement/Page_OrangeHRM/Job_MouseHover""))",Chrome 84.0.4147.125,,,2020-08-20 22:44:34,2020-08-20 22:44:35,0.578s,PASSED
+"click(findTestObject(""Object Repository/WorkShiftManagement/Page_OrangeHRM/ClickOnWorkShift""))",Chrome 84.0.4147.125,,,2020-08-20 22:44:35,2020-08-20 22:44:38,3.067s,PASSED
+driver = getWebDriver(),Chrome 84.0.4147.125,,,2020-08-20 22:44:38,2020-08-20 22:44:38,0.002s,PASSED
+"table = driver.findElement(By.xpath(""//*[@id='resultTable']/tbody""))",Chrome 84.0.4147.125,,,2020-08-20 22:44:38,2020-08-20 22:44:38,0.498s,PASSED
+"tableRows = table.findElements(By.tagName(""tr""))",Chrome 84.0.4147.125,,,2020-08-20 22:44:38,2020-08-20 22:44:39,0.268s,PASSED
+"println(""Total rows: "" + tableRows.size())",Chrome 84.0.4147.125,,,2020-08-20 22:44:39,2020-08-20 22:44:39,0.024s,PASSED
+rowNumber = 1,Chrome 84.0.4147.125,,,2020-08-20 22:44:39,2020-08-20 22:44:39,0.001s,PASSED
+for (org.openqa.selenium.WebElement row : tableRows),Chrome 84.0.4147.125,,,2020-08-20 22:44:39,2020-08-20 22:44:40,1.186s,PASSED
+"click(findTestObject(""Object Repository/WorkShiftManagement/DeleteWorkShift/Page_OrangeHRM/input_OrangeHRM - AlertOkButton""))",Chrome 84.0.4147.125,,,2020-08-20 22:44:40,2020-08-20 22:44:43,3.041s,FAILED
