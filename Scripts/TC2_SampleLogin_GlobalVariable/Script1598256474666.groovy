@@ -15,7 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('https://opensource-demo.orangehrmlive.com/index.php/admin/viewSystemUsers')
+WebUI.openBrowser(GlobalVariable.siteURL)
 WebUI.setText(findTestObject('Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), 'admin')
 WebUI.setText(findTestObject('Object Repository/TC1_Sample_Login_OR/Page_OrangeHRM/input_Username_txtPassword'), 'admin123')
 Thread.sleep(3000)
