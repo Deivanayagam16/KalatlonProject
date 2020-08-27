@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite1,Chrome 85.0.4183.83,,,2020-08-27 20:49:04,2020-08-27 20:50:18,1m - 13.908s,ERROR
+,,,,,,,
+Test Cases/MedicarePlans/OpenMedicarePageAndSelectCity/TC_SelectCity,Chrome 85.0.4183.83,,,2020-08-27 20:49:04,2020-08-27 20:50:00,55.430s,PASSED
+"openBrowser(""https://cd.ca.ehealthmedicareplans.com/"")",Chrome 85.0.4183.83,,,2020-08-27 20:49:05,2020-08-27 20:49:18,12.402s,PASSED
+waitForPageLoad(120),Chrome 85.0.4183.83,,,2020-08-27 20:49:18,2020-08-27 20:49:53,35.884s,PASSED
+"setText(findTestObject(""Medicare Plans/OpenMedicareWebPage/input_Zip code""), ""90001"")",Chrome 85.0.4183.83,,,2020-08-27 20:49:53,2020-08-27 20:49:57,3.206s,PASSED
+"click(findTestObject(""Medicare Plans/OpenMedicareWebPage/button_Find Plans""))",Chrome 85.0.4183.83,,,2020-08-27 20:49:57,2020-08-27 20:49:59,2.317s,PASSED
+waitForPageLoad(60),Chrome 85.0.4183.83,,,2020-08-27 20:49:59,2020-08-27 20:49:59,0.052s,PASSED
+try,Chrome 85.0.4183.83,,,2020-08-27 20:49:59,2020-08-27 20:50:00,0.756s,PASSED
+,,,,,,,
+Test Cases/MedicarePlans/SelectPlanType/TC_SelectPlanType,Chrome 85.0.4183.83,,,2020-08-27 20:50:00,2020-08-27 20:50:18,17.768s,ERROR
+"click(findTestObject(""Object Repository/Medicare Plans/SelectPlanType/Page_Medicare Insurance Program/a_Medicare Advantage Plans  45 plans available""))",Chrome 85.0.4183.83,,,2020-08-27 20:50:01,2020-08-27 20:50:15,14.544s,PASSED
+"click(findTestObject(""Object Repository/Medicare Plans/SelectPlanType/Page_Medicare Insurance Program/Company""))",Chrome 85.0.4183.83,,,2020-08-27 20:50:15,2020-08-27 20:50:16,0.566s,PASSED
+driver = getWebDriver(),Chrome 85.0.4183.83,,,2020-08-27 20:50:16,2020-08-27 20:50:16,0.001s,PASSED
+"company = driver.findElement(By.xpath(""//*[@id='filter 6']/div/div/div/ul""))",Chrome 85.0.4183.83,,,2020-08-27 20:50:16,2020-08-27 20:50:18,1.542s,PASSED

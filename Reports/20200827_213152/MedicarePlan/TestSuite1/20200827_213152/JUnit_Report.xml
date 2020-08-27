@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite1" time="142.348" tests="2" failures="0" errors="0">
+   <testsuite name="TestSuite1" tests="2" failures="0" errors="0" time="142.348" timestamp="2020-08-27 21:31:59" hostname="Deiva - DESKTOP-8HAFPCD" id="Test Suites/MedicarePlan/TestSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Deiva\\git\\KalatlonProject\\Reports\\20200827_213152\\MedicarePlan\\TestSuite1\\20200827_213152"/>
+         <property name="logFiles" value="C:\\Users\\Deiva\\git\\KalatlonProject\\Reports\\20200827_213152\\MedicarePlan\\TestSuite1\\20200827_213152\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Deiva - DESKTOP-8HAFPCD"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.2.205"/>
+         <property name="browser" value="Chrome 85.0.4183.83"/>
+         <property name="hostAddress" value="192.168.1.13"/>
+         <property name="sessionId" value="90e4bb7f465a7b5dbe2d850ff1307bdc"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/MedicarePlans/OpenMedicarePageAndSelectCity/TC_SelectCity" time="125.009" classname="Test Cases/MedicarePlans/OpenMedicarePageAndSelectCity/TC_SelectCity" status="PASSED">
+         <system-out><![CDATA[2020-08-27 21:31:59 - [TEST_CASE][PASSED] - Test Cases/MedicarePlans/OpenMedicarePageAndSelectCity/TC_SelectCity: Test Cases/MedicarePlans/OpenMedicarePageAndSelectCity/TC_SelectCity
+
+2020-08-27 21:32:00 - [TEST_STEP][PASSED] - openBrowser("https://cd.ca.ehealthmedicareplans.com/"): Browser is opened with url: 'https://cd.ca.ehealthmedicareplans.com/'
+
+2020-08-27 21:32:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-27 21:32:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-27 21:32:13 - [MESSAGE][PASSED] - Browser is opened with url: 'https://cd.ca.ehealthmedicareplans.com/'
+
+2020-08-27 21:32:13 - [TEST_STEP][PASSED] - waitForPageLoad(180): Wait for page load successfully
+
+2020-08-27 21:33:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-08-27 21:33:59 - [TEST_STEP][PASSED] - setText(findTestObject("Medicare Plans/OpenMedicareWebPage/input_Zip code"), "90001"): Text '90001' is set on object 'Object Repository/Medicare Plans/OpenMedicareWebPage/input_Zip code'
+
+2020-08-27 21:34:02 - [MESSAGE][PASSED] - Text '90001' is set on object 'Object Repository/Medicare Plans/OpenMedicareWebPage/input_Zip code'
+
+2020-08-27 21:34:02 - [TEST_STEP][PASSED] - click(findTestObject("Medicare Plans/OpenMedicareWebPage/button_Find Plans")): Object: 'Object Repository/Medicare Plans/OpenMedicareWebPage/button_Find Plans' is clicked on
+
+2020-08-27 21:34:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Medicare Plans/OpenMedicareWebPage/button_Find Plans' is clicked on
+
+2020-08-27 21:34:03 - [TEST_STEP][PASSED] - waitForPageLoad(60): Wait for page load successfully
+
+2020-08-27 21:34:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-08-27 21:34:03 - [TEST_STEP][PASSED] - try: Object 'Object Repository/Medicare Plans/OpenMedicareWebPage/Favourites' is present
+
+2020-08-27 21:34:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Medicare Plans/OpenMedicareWebPage/Favourites"), 10, STOP_ON_FAILURE): Object 'Object Repository/Medicare Plans/OpenMedicareWebPage/Favourites' is present
+
+2020-08-27 21:34:04 - [MESSAGE][PASSED] - Object 'Object Repository/Medicare Plans/OpenMedicareWebPage/Favourites' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MedicarePlans/SelectPlanType/TC_SelectPlanType" time="13.637" classname="Test Cases/MedicarePlans/SelectPlanType/TC_SelectPlanType" status="PASSED">
+         <system-out><![CDATA[2020-08-27 21:34:04 - [TEST_CASE][PASSED] - Test Cases/MedicarePlans/SelectPlanType/TC_SelectPlanType: Test Cases/MedicarePlans/SelectPlanType/TC_SelectPlanType
+
+2020-08-27 21:34:05 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-08-27 21:34:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Medicare Plans/SelectPlanType/Page_Medicare Insurance Program/a_Medicare Advantage Plans  45 plans available")): Object: 'Object Repository/Medicare Plans/SelectPlanType/Page_Medicare Insurance Program/a_Medicare Advantage Plans  45 plans available' is clicked on
+
+2020-08-27 21:34:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Medicare Plans/SelectPlanType/Page_Medicare Insurance Program/a_Medicare Advantage Plans  45 plans available' is clicked on
+
+2020-08-27 21:34:17 - [TEST_STEP][PASSED] - timeouts().implicitlyWait(10000, MILLISECONDS): null
+
+2020-08-27 21:34:17 - [TEST_STEP][PASSED] - company = driver.findElement(By.xpath("//*[@id='filter 6']/div/div/div/ul")): null
+
+2020-08-27 21:34:18 - [TEST_STEP][PASSED] - companyList = company.findElements(By.tagName("li")): null
+
+2020-08-27 21:34:18 - [TEST_STEP][PASSED] - println("List size: " + companyList.size()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-08-27 21:31:59 - [TEST_SUITE][PASSED] - TestSuite1: Test Cases/MedicarePlans/SelectPlanType/TC_SelectPlanType]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

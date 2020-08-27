@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite1,Chrome 85.0.4183.83,,,2020-08-27 21:28:01,2020-08-27 21:30:36,2m - 35.736s,FAILED
+,,,,,,,
+Test Cases/MedicarePlans/OpenMedicarePageAndSelectCity/TC_SelectCity,Chrome 85.0.4183.83,,,2020-08-27 21:28:01,2020-08-27 21:30:16,2m - 14.487s,FAILED
+"openBrowser(""https://cd.ca.ehealthmedicareplans.com/"")",Chrome 85.0.4183.83,,,2020-08-27 21:28:02,2020-08-27 21:28:14,11.869s,PASSED
+waitForPageLoad(120),Chrome 85.0.4183.83,,,2020-08-27 21:28:14,2020-08-27 21:30:16,2m - 1.711s,FAILED
+,,,,,,,
+Test Cases/MedicarePlans/SelectPlanType/TC_SelectPlanType,Chrome 85.0.4183.83,,,2020-08-27 21:30:16,2020-08-27 21:30:36,20.689s,FAILED
+driver = getWebDriver(),Chrome 85.0.4183.83,,,2020-08-27 21:30:17,2020-08-27 21:30:17,0.005s,PASSED
+"click(findTestObject(""Object Repository/Medicare Plans/SelectPlanType/Page_Medicare Insurance Program/a_Medicare Advantage Plans  45 plans available""))",Chrome 85.0.4183.83,,,2020-08-27 21:30:17,2020-08-27 21:30:36,19.751s,FAILED

@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite1,Chrome 85.0.4183.83,,,2020-08-27 21:19:00,2020-08-27 21:20:02,1m - 2.380s,ERROR
+,,,,,,,
+Test Cases/MedicarePlans/OpenMedicarePageAndSelectCity/TC_SelectCity,Chrome 85.0.4183.83,,,2020-08-27 21:19:01,2020-08-27 21:20:01,1m - 0.351s,PASSED
+"openBrowser(""https://cd.ca.ehealthmedicareplans.com/"")",Chrome 85.0.4183.83,,,2020-08-27 21:19:01,2020-08-27 21:19:19,17.381s,PASSED
+waitForPageLoad(120),Chrome 85.0.4183.83,,,2020-08-27 21:19:19,2020-08-27 21:19:56,37.455s,PASSED
+"setText(findTestObject(""Medicare Plans/OpenMedicareWebPage/input_Zip code""), ""90001"")",Chrome 85.0.4183.83,,,2020-08-27 21:19:56,2020-08-27 21:19:59,2.968s,PASSED
+"click(findTestObject(""Medicare Plans/OpenMedicareWebPage/button_Find Plans""))",Chrome 85.0.4183.83,,,2020-08-27 21:19:59,2020-08-27 21:20:00,1.003s,PASSED
+waitForPageLoad(60),Chrome 85.0.4183.83,,,2020-08-27 21:20:00,2020-08-27 21:20:00,0.098s,PASSED
+try,Chrome 85.0.4183.83,,,2020-08-27 21:20:00,2020-08-27 21:20:01,0.504s,PASSED
+,,,,,,,
+Test Cases/MedicarePlans/SelectPlanType/TC_SelectPlanType,Chrome 85.0.4183.83,,,2020-08-27 21:20:01,2020-08-27 21:20:02,1.259s,ERROR
+driver = getWebDriver(),Chrome 85.0.4183.83,,,2020-08-27 21:20:02,2020-08-27 21:20:02,0.007s,PASSED
+"company = driver.findElement(By.xpath(""//*[@id='filter 6'']/div/div/div/ul""))",Chrome 85.0.4183.83,,,2020-08-27 21:20:02,2020-08-27 21:20:02,0.518s,PASSED

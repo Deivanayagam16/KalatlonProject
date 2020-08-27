@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite1,Chrome 85.0.4183.83,,,2020-08-27 21:31:59,2020-08-27 21:34:18,2m - 19.311s,PASSED
+,,,,,,,
+Test Cases/MedicarePlans/OpenMedicarePageAndSelectCity/TC_SelectCity,Chrome 85.0.4183.83,,,2020-08-27 21:31:59,2020-08-27 21:34:04,2m - 5.009s,PASSED
+"openBrowser(""https://cd.ca.ehealthmedicareplans.com/"")",Chrome 85.0.4183.83,,,2020-08-27 21:32:00,2020-08-27 21:32:13,13.180s,PASSED
+waitForPageLoad(180),Chrome 85.0.4183.83,,,2020-08-27 21:32:13,2020-08-27 21:33:59,1m - 46.012s,PASSED
+"setText(findTestObject(""Medicare Plans/OpenMedicareWebPage/input_Zip code""), ""90001"")",Chrome 85.0.4183.83,,,2020-08-27 21:33:59,2020-08-27 21:34:02,2.805s,PASSED
+"click(findTestObject(""Medicare Plans/OpenMedicareWebPage/button_Find Plans""))",Chrome 85.0.4183.83,,,2020-08-27 21:34:02,2020-08-27 21:34:03,1.141s,PASSED
+waitForPageLoad(60),Chrome 85.0.4183.83,,,2020-08-27 21:34:03,2020-08-27 21:34:03,0.033s,PASSED
+try,Chrome 85.0.4183.83,,,2020-08-27 21:34:03,2020-08-27 21:34:04,0.956s,PASSED
+,,,,,,,
+Test Cases/MedicarePlans/SelectPlanType/TC_SelectPlanType,Chrome 85.0.4183.83,,,2020-08-27 21:34:04,2020-08-27 21:34:18,13.637s,PASSED
+driver = getWebDriver(),Chrome 85.0.4183.83,,,2020-08-27 21:34:05,2020-08-27 21:34:05,0.002s,PASSED
+"click(findTestObject(""Object Repository/Medicare Plans/SelectPlanType/Page_Medicare Insurance Program/a_Medicare Advantage Plans  45 plans available""))",Chrome 85.0.4183.83,,,2020-08-27 21:34:05,2020-08-27 21:34:17,12.159s,PASSED
+"timeouts().implicitlyWait(10000, MILLISECONDS)",Chrome 85.0.4183.83,,,2020-08-27 21:34:17,2020-08-27 21:34:17,0.053s,PASSED
+"company = driver.findElement(By.xpath(""//*[@id='filter 6']/div/div/div/ul""))",Chrome 85.0.4183.83,,,2020-08-27 21:34:17,2020-08-27 21:34:18,0.393s,PASSED
+"companyList = company.findElements(By.tagName(""li""))",Chrome 85.0.4183.83,,,2020-08-27 21:34:18,2020-08-27 21:34:18,0.260s,PASSED
+"println(""List size: "" + companyList.size())",Chrome 85.0.4183.83,,,2020-08-27 21:34:18,2020-08-27 21:34:18,0.022s,PASSED
