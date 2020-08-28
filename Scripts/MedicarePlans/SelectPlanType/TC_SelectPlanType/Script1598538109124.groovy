@@ -19,6 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.*
+import org.apache.poi.*
+import org.apache.poi.xssf.usermodel.XSSFSheet
+import org.apache.poi.xssf.usermodel.XSSFWorkbook
 
 WebDriver driver = DriverFactory.getWebDriver();
 WebUI.click(findTestObject('Object Repository/Medicare Plans/SelectPlanType/Page_Medicare Insurance Program/a_Medicare Advantage Plans  45 plans available'))
@@ -32,6 +35,13 @@ for(int i=1; i<=companyList.size(); i++){
 	//*[@id="filter 6"]/div/div/div/ul/li[3]/span/label/span/span
 	if(companyName == "Blue Shield of California"){
 		println("Blue shield of california")
-	}
+		String Filepath = "C:/Users/Deiva/Desktop/Katalon/DataFiles/MedicarePlans.xlsx";
+		File file = new File(Filepath);
+		FileInputStream fis = new FileInputStream(file);
+		XSSFWorkbook wbook = new XSSFWorkbook(fis);
+		XSSFSheet sheet = wbook.getSheet("Sheet1");
+		println("Last row num: "+ sheet.lastRowNum)	
+		wbook.close();		
+		break;
+	}	
 }
-

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite1" time="137.225" tests="2" failures="0" errors="1">
+   <testsuite name="TestSuite1" tests="2" failures="0" errors="1" time="137.225" timestamp="2020-08-28 21:20:31" hostname="Deiva - DESKTOP-8HAFPCD" id="Test Suites/MedicarePlan/TestSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Deiva\\git\\KalatlonProject\\Reports\\20200828_211938\\MedicarePlan\\TestSuite1\\20200828_211939"/>
+         <property name="logFiles" value="C:\\Users\\Deiva\\git\\KalatlonProject\\Reports\\20200828_211938\\MedicarePlan\\TestSuite1\\20200828_211939\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Deiva - DESKTOP-8HAFPCD"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.2.205"/>
+         <property name="browser" value="Chrome 85.0.4183.83"/>
+         <property name="hostAddress" value="192.168.1.13"/>
+         <property name="sessionId" value="e4fe8cf5a933aa3b1a8c1f5dec982ab9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/MedicarePlans/OpenMedicarePageAndSelectCity/TC_SelectCity" time="84.148" classname="Test Cases/MedicarePlans/OpenMedicarePageAndSelectCity/TC_SelectCity" status="PASSED">
+         <system-out><![CDATA[2020-08-28 21:20:32 - [TEST_CASE][PASSED] - Test Cases/MedicarePlans/OpenMedicarePageAndSelectCity/TC_SelectCity: Test Cases/MedicarePlans/OpenMedicarePageAndSelectCity/TC_SelectCity
+
+2020-08-28 21:20:33 - [TEST_STEP][PASSED] - openBrowser("https://cd.ca.ehealthmedicareplans.com/"): Browser is opened with url: 'https://cd.ca.ehealthmedicareplans.com/'
+
+2020-08-28 21:20:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-28 21:20:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-28 21:21:26 - [MESSAGE][PASSED] - Browser is opened with url: 'https://cd.ca.ehealthmedicareplans.com/'
+
+2020-08-28 21:21:26 - [TEST_STEP][PASSED] - waitForPageLoad(180): Wait for page load successfully
+
+2020-08-28 21:21:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-08-28 21:21:44 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-08-28 21:21:49 - [MESSAGE][PASSED] - Current window maximized
+
+2020-08-28 21:21:49 - [TEST_STEP][PASSED] - setText(findTestObject("Medicare Plans/OpenMedicareWebPage/input_Zip code"), "90001"): Text '90001' is set on object 'Object Repository/Medicare Plans/OpenMedicareWebPage/input_Zip code'
+
+2020-08-28 21:21:53 - [MESSAGE][PASSED] - Text '90001' is set on object 'Object Repository/Medicare Plans/OpenMedicareWebPage/input_Zip code'
+
+2020-08-28 21:21:53 - [TEST_STEP][PASSED] - click(findTestObject("Medicare Plans/OpenMedicareWebPage/button_Find Plans")): Object: 'Object Repository/Medicare Plans/OpenMedicareWebPage/button_Find Plans' is clicked on
+
+2020-08-28 21:21:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Medicare Plans/OpenMedicareWebPage/button_Find Plans' is clicked on
+
+2020-08-28 21:21:55 - [TEST_STEP][PASSED] - waitForPageLoad(60): Wait for page load successfully
+
+2020-08-28 21:21:55 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-08-28 21:21:55 - [TEST_STEP][PASSED] - try: Object 'Object Repository/Medicare Plans/OpenMedicareWebPage/Favourites' is present
+
+2020-08-28 21:21:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Medicare Plans/OpenMedicareWebPage/Favourites"), 10, STOP_ON_FAILURE): Object 'Object Repository/Medicare Plans/OpenMedicareWebPage/Favourites' is present
+
+2020-08-28 21:21:56 - [MESSAGE][PASSED] - Object 'Object Repository/Medicare Plans/OpenMedicareWebPage/Favourites' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MedicarePlans/SelectPlanType/TC_SelectPlanType" time="37.492" classname="Test Cases/MedicarePlans/SelectPlanType/TC_SelectPlanType" status="ERROR">
+         <error type="ERROR" message="Test Cases/MedicarePlans/SelectPlanType/TC_SelectPlanType FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: org.apache.poi.xssf.usermodel.XSSFSheet.lastRowNum() is applicable for argument types: () values: []
+Possible solutions: getLastRowNum()
+	at TC_SelectPlanType.run(TC_SelectPlanType:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598629779117.run(TempTestSuite1598629779117.groovy:39)
+"/>
+         <system-out><![CDATA[2020-08-28 21:21:56 - [TEST_CASE][ERROR] - Test Cases/MedicarePlans/SelectPlanType/TC_SelectPlanType: Test Cases/MedicarePlans/SelectPlanType/TC_SelectPlanType FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: org.apache.poi.xssf.usermodel.XSSFSheet.lastRowNum() is applicable for argument types: () values: []
+Possible solutions: getLastRowNum()
+	at TC_SelectPlanType.run(TC_SelectPlanType:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598629779117.run(TempTestSuite1598629779117.groovy:39)
+
+
+2020-08-28 21:22:06 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-08-28 21:22:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Medicare Plans/SelectPlanType/Page_Medicare Insurance Program/a_Medicare Advantage Plans  45 plans available")): Object: 'Object Repository/Medicare Plans/SelectPlanType/Page_Medicare Insurance Program/a_Medicare Advantage Plans  45 plans available' is clicked on
+
+2020-08-28 21:22:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Medicare Plans/SelectPlanType/Page_Medicare Insurance Program/a_Medicare Advantage Plans  45 plans available' is clicked on
+
+2020-08-28 21:22:25 - [TEST_STEP][PASSED] - timeouts().implicitlyWait(10000, MILLISECONDS): null
+
+2020-08-28 21:22:25 - [TEST_STEP][PASSED] - company = driver.findElement(By.xpath("//*[@id='filter 6']/div/div/div/ul")): null
+
+2020-08-28 21:22:25 - [TEST_STEP][PASSED] - companyList = company.findElements(By.tagName("li")): null
+
+2020-08-28 21:22:25 - [TEST_STEP][PASSED] - println("List size: " + companyList.size()): null
+
+2020-08-28 21:22:25 - [TEST_STEP][PASSED] - for ([i = 1, i <= companyList.size(), (i++)]): null
+
+2020-08-28 21:22:25 - [TEST_STEP][PASSED] - companyName = xpath("//*[@id='filter 6']/div/div/div/ul/li[" + i + "]/span/label/span/span")).getText(): null
+
+2020-08-28 21:22:26 - [TEST_STEP][PASSED] - if (companyName == "Blue Shield of California"): null
+
+2020-08-28 21:22:26 - [TEST_STEP][PASSED] - companyName = xpath("//*[@id='filter 6']/div/div/div/ul/li[" + i + "]/span/label/span/span")).getText(): null
+
+2020-08-28 21:22:26 - [TEST_STEP][PASSED] - if (companyName == "Blue Shield of California"): null
+
+2020-08-28 21:22:26 - [TEST_STEP][PASSED] - companyName = xpath("//*[@id='filter 6']/div/div/div/ul/li[" + i + "]/span/label/span/span")).getText(): null
+
+2020-08-28 21:22:26 - [TEST_STEP][PASSED] - if (companyName == "Blue Shield of California"): null
+
+2020-08-28 21:22:26 - [TEST_STEP][PASSED] - companyName = xpath("//*[@id='filter 6']/div/div/div/ul/li[" + i + "]/span/label/span/span")).getText(): null
+
+2020-08-28 21:22:27 - [TEST_STEP][PASSED] - if (companyName == "Blue Shield of California"): null
+
+2020-08-28 21:22:27 - [TEST_STEP][PASSED] - companyName = xpath("//*[@id='filter 6']/div/div/div/ul/li[" + i + "]/span/label/span/span")).getText(): null
+
+2020-08-28 21:22:27 - [TEST_STEP][PASSED] - if (companyName == "Blue Shield of California"): null
+
+2020-08-28 21:22:27 - [TEST_STEP][PASSED] - println("Blue shield of california"): null
+
+2020-08-28 21:22:27 - [TEST_STEP][PASSED] - Filepath = "C:/Users/Deiva/Desktop/Katalon/DataFiles/MedicarePlans.xlsx": null
+
+2020-08-28 21:22:27 - [TEST_STEP][PASSED] - file = new java.io.File(Filepath): null
+
+2020-08-28 21:22:27 - [TEST_STEP][PASSED] - fis = new java.io.FileInputStream(file): null
+
+2020-08-28 21:22:28 - [TEST_STEP][PASSED] - wbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fis): null
+
+2020-08-28 21:22:33 - [TEST_STEP][PASSED] - sheet = wbook.getSheet("Sheet1"): null
+
+2020-08-28 21:22:33 - [TEST_STEP][PASSED] - println("Last row num: " + sheet.lastRowNum()): null]]></system-out>
+         <system-err><![CDATA[2020-08-28 21:21:56 - [TEST_CASE][ERROR] - Test Cases/MedicarePlans/SelectPlanType/TC_SelectPlanType: Test Cases/MedicarePlans/SelectPlanType/TC_SelectPlanType FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: org.apache.poi.xssf.usermodel.XSSFSheet.lastRowNum() is applicable for argument types: () values: []
+Possible solutions: getLastRowNum()
+	at TC_SelectPlanType.run(TC_SelectPlanType:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598629779117.run(TempTestSuite1598629779117.groovy:39)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-08-28 21:20:31 - [TEST_SUITE][ERROR] - TestSuite1: Test Cases/MedicarePlans/SelectPlanType/TC_SelectPlanType FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: org.apache.poi.xssf.usermodel.XSSFSheet.lastRowNum() is applicable for argument types: () values: []
+Possible solutions: getLastRowNum()
+	at TC_SelectPlanType.run(TC_SelectPlanType:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598629779117.run(TempTestSuite1598629779117.groovy:39)]]></system-out>
+      <system-err><![CDATA[2020-08-28 21:20:31 - [TEST_SUITE][ERROR] - TestSuite1: Test Cases/MedicarePlans/SelectPlanType/TC_SelectPlanType FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: org.apache.poi.xssf.usermodel.XSSFSheet.lastRowNum() is applicable for argument types: () values: []
+Possible solutions: getLastRowNum()
+	at TC_SelectPlanType.run(TC_SelectPlanType:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598629779117.run(TempTestSuite1598629779117.groovy:39)]]></system-err>
+   </testsuite>
+</testsuites>

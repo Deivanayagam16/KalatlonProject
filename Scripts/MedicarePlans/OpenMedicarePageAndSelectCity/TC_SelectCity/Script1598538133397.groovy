@@ -17,6 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('https://cd.ca.ehealthmedicareplans.com/')
 WebUI.waitForPageLoad(180)
+WebUI.maximizeWindow()
 WebUI.setText(findTestObject('Medicare Plans/OpenMedicareWebPage/input_Zip code'), '90001')
 WebUI.click(findTestObject('Medicare Plans/OpenMedicareWebPage/button_Find Plans'))
 WebUI.waitForPageLoad(60)

@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite1,Chrome 85.0.4183.83,,,2020-08-28 21:23:34,2020-08-28 21:24:45,1m - 11.483s,PASSED
+,,,,,,,
+Test Cases/MedicarePlans/OpenMedicarePageAndSelectCity/TC_SelectCity,Chrome 85.0.4183.83,,,2020-08-28 21:23:34,2020-08-28 21:24:16,41.759s,PASSED
+"openBrowser(""https://cd.ca.ehealthmedicareplans.com/"")",Chrome 85.0.4183.83,,,2020-08-28 21:23:35,2020-08-28 21:23:54,18.530s,PASSED
+waitForPageLoad(180),Chrome 85.0.4183.83,,,2020-08-28 21:23:54,2020-08-28 21:24:09,15.360s,PASSED
+maximizeWindow(),Chrome 85.0.4183.83,,,2020-08-28 21:24:09,2020-08-28 21:24:11,2.292s,PASSED
+"setText(findTestObject(""Medicare Plans/OpenMedicareWebPage/input_Zip code""), ""90001"")",Chrome 85.0.4183.83,,,2020-08-28 21:24:11,2020-08-28 21:24:14,2.284s,PASSED
+"click(findTestObject(""Medicare Plans/OpenMedicareWebPage/button_Find Plans""))",Chrome 85.0.4183.83,,,2020-08-28 21:24:14,2020-08-28 21:24:15,1.810s,PASSED
+waitForPageLoad(60),Chrome 85.0.4183.83,,,2020-08-28 21:24:15,2020-08-28 21:24:16,0.051s,PASSED
+try,Chrome 85.0.4183.83,,,2020-08-28 21:24:16,2020-08-28 21:24:16,0.633s,PASSED
+,,,,,,,
+Test Cases/MedicarePlans/SelectPlanType/TC_SelectPlanType,Chrome 85.0.4183.83,,,2020-08-28 21:24:16,2020-08-28 21:24:45,29.062s,PASSED
+driver = getWebDriver(),Chrome 85.0.4183.83,,,2020-08-28 21:24:18,2020-08-28 21:24:18,0.001s,PASSED
+"click(findTestObject(""Object Repository/Medicare Plans/SelectPlanType/Page_Medicare Insurance Program/a_Medicare Advantage Plans  45 plans available""))",Chrome 85.0.4183.83,,,2020-08-28 21:24:18,2020-08-28 21:24:33,14.440s,PASSED
+"timeouts().implicitlyWait(10000, MILLISECONDS)",Chrome 85.0.4183.83,,,2020-08-28 21:24:33,2020-08-28 21:24:33,0.093s,PASSED
+"company = driver.findElement(By.xpath(""//*[@id='filter 6']/div/div/div/ul""))",Chrome 85.0.4183.83,,,2020-08-28 21:24:33,2020-08-28 21:24:34,0.614s,PASSED
+"companyList = company.findElements(By.tagName(""li""))",Chrome 85.0.4183.83,,,2020-08-28 21:24:34,2020-08-28 21:24:34,0.276s,PASSED
+"println(""List size: "" + companyList.size())",Chrome 85.0.4183.83,,,2020-08-28 21:24:34,2020-08-28 21:24:34,0.032s,PASSED
+"for ([i = 1, i <= companyList.size(), (i++)])",Chrome 85.0.4183.83,,,2020-08-28 21:24:34,2020-08-28 21:24:45,11.283s,PASSED
